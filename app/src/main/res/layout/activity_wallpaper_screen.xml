@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WallpaperScreen"
+    >
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:src="@drawable/example"
+           android:scaleType= 'centerCrop'
+           android:id="@+id/wallpaper_img_view"/>
+        <FrameLayout
+
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="30dp"
+
+            >
+            <Button
+                android:id="@+id/downloadbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Download"
+                android:textSize="30dp"
+                android:backgroundTint="#4A95DF"/>
+
+
+        </FrameLayout>
+<!--        <FrameLayout-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        -->
+<!--       -->
+<!--        >-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            app:cardBackgroundColor="#D2FFFFFF"-->
+<!--            app:cardCornerRadius="12dp"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:src="@drawable/ic_download"-->
+<!--                />-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--    </FrameLayout>-->
+
+
+</FrameLayout>
